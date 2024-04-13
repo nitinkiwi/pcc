@@ -1,0 +1,8 @@
+first_name = input("What is your first name? ")
+last_name = input("What is your last name? ")
+print("Here is your name in UPPER CASE.")
+print(first_name.upper())
+print(last_name.upper())
+print("HERE IS YOUR NAME IN lower case.")
+print(first_name.lower())
+print(last_name.lower())
