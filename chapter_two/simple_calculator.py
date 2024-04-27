@@ -32,6 +32,7 @@ while repeat == "Yes":
     if repeat == "No":
         break
     elif repeat != "Yes":
+        # This loop has a bug where even if the user replies "Yes" it still repeats.
         while (repeat != "No") or (repeat != "Yes"):
             print("That is not a valid option.")
             repeat = input("Would you like to do another calculation? (Answer Yes/No) ")
