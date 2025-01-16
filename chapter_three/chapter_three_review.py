@@ -1,0 +1,22 @@
+family = ['dad', 'mum', 'kiran']
+print(f"The people in my family are {family[0].title()}, {family[1].title()} and {family[2].title()}!")
+print('I have a cat called Atlas!')
+family.append('atlas')
+print(family)
+print('I have a cousin called Anoushka!')
+family.insert(4, 'anoushka')
+print(family)
+cousin = family.pop()
+print(f"{cousin.title()} is not in my immediate family.")
+print(family)
+print('Sometimes there is a person in my family called Grubular!')
+family.append('grubular')
+print(family)
+print('Not most of the time though.')
+del family[4]
+print(family)
+pet = family[3]
+family.remove(pet)
+print('Atlas is a pet so he is not part of my human family.')
+print(family)
+print(f"Therefore the people in my family are {family[0].title()}, {family[1].title()} and {family[2].title()}!")
