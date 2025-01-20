@@ -8,5 +8,5 @@ evergreen = "pine"
 trees.remove("pine")
 print(trees)
 print(f"{evergreen.title()} trees stay green thoughout the winter.")
-del trees[1]
-print(trees)
+del trees[0]
+print(trees)    
