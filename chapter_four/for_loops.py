@@ -1,9 +1,9 @@
-songs = ['happy', 'beyond', 'sledgehammer', 'murmuration', 'man of colours']
+songs = ['happy', 'beyond', 'sledgehammer', 'murmuration', 'man of colours', 'get lucky']
 song_number = 0
 print()
 for song in songs:
     print(f"{song.title()} is an excellent song!")
-    if song_number == 4:
+    if song_number == len(songs)-1:
         break
     else:
         song_number = song_number + 1

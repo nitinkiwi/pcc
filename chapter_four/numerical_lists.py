@@ -25,6 +25,6 @@ many_numbers = [value for value in range(1,10000001)]
 
 print(sum(many_numbers))
 
-one_to_twenty = [value for value in range(33,21,2)]
+one_to_twenty = [value for value in range(2,21,2)]
 
 print(one_to_twenty)
